@@ -71,3 +71,6 @@ mysql> source /var/www/html/chatsky/db/chatsky.sql
 
 ### Developed by
 [Rushikesh Kundkar](https://github.com/RRkundkar777) <br>
+
+### Status
+<img src="https://img.shields.io/badge/-Under Development-brightgreen?logo=travis">
