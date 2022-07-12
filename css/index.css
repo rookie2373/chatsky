@@ -1,0 +1,153 @@
+html,
+body * {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	height: 98vh;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	background-image: url(../images/back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+form {
+	padding: 15px 25px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+input {
+	font-family: "Lato";
+}
+
+a {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	width: 100%;
+	height: 45px;
+	padding: 12px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding-bottom: 25px;
+	background: #eee;
+	width: 600px;
+	max-width: 100%;
+	border-radius: 4px;
+	background:
+		linear-gradient(rgba(35, 43, 85, 0.75),
+			rgba(35, 43, 85, 0.95));
+}
+
+.chatbox {
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	padding: 5px;
+	height: 300px;
+	width: 530px;
+	overflow: auto;
+	border-radius: 4px;
+	background: linear-gradient(rgba(35, 43, 85, 0.75),
+			rgba(35, 43, 85, 0.95));
+}
+
+#usermsg {
+	flex: 1;
+	border-radius: 4px;
+	width: 100%;
+	height: 35px;
+	padding-left: 15px;
+	border: none;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: rgba(255, 255, 255, .2);
+}
+
+#submitmsg {
+	background-color: rgba(16, 89, 255, 1);
+	border: none;
+	border-radius: 20px;
+	width: 25%;
+	height: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	margin-top: 20px;
+}
+
+#submitmsg:hover {
+	cursor: pointer;
+}
+
+#menu {
+	padding: 15px 25px;
+	display: flex;
+}
+
+#menu p.welcome {
+	flex: 1;
+}
+
+a#exit {
+	color: white;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-weight: bold;
+	background-color: rgba(16, 89, 255, 1);
+	border: none;
+	border-radius: 20px;
+	width: 25%;
+	height: 35px;
+}
+
+span.uname {
+	color: yellow;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+span.msg {
+	color: orangered;
+	font-size: 14px;
+}
+
+#refresh {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+	padding: 13px 0 0 13px;
+}
+
+.refreshicon {
+	fill: #d3d3d3;
+	transform: rotate(0deg);
+	transition: fill .25s ease, transform .25s ease;
+}
+
+.refreshicon:hover {
+	cursor: pointer;
+	fill: #1059FF;
+	transform: rotate(180deg);
+}
